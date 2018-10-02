@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #2c2828;
+}
+
+
+.history {
+    position: relative;    
+    
+}
+
+.btn-clear{
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    color: #fff;
+    font-size: 20px;
+    background: #219897;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-clear:hover{
+    color: #3b2c85;
+    background: #fff;
+}
+
+#list{
+     width:40%;
+     height:300PX;
+
+     overflow-y:scroll;
+}
+
+.tab{
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+
+ul{
+    overflow-y: scroll;
+}
+
+.history {
+    color: #fff;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 1em;
+    position: relative;
+    left: 800px;
+    bottom: 525px;
+}
+
+.btnC {
+    width: 3em;
+    height: 4em;
+    font-family: 'Open Sans',
+        sans-serif;
+    color: #fff;
+    background: #219897;
+    border: none;
+    margin: 1px;
+}
+
+.resultado {
+    background: #fff;
+    text-align: center;
+    border: none;
+    width: 243px;
+    height: 3em;
+    margin-top: 10em;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.btn {
+    width: 6em;
+    height: 6em;
+    font-family: 'Open Sans',
+        sans-serif;
+    color: #fff;
+    background: #219897;
+    border: none;
+    margin: 1px;
+}
+
+.btn:hover,
+.btntotal:hover,
+.btnC:hover {
+    color: #3b2c85;
+    background: #fff;
+    cursor: pointer;
+}
+
+.row1 {
+    background: #3b2c85;
+}
+
+.text-center {
+    font-family: 'Open Sans',
+        sans-serif;
+
+    text-align: center;
+    color: #fff;
+}
